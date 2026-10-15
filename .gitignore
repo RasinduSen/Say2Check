@@ -1,0 +1,29 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Environment / secrets
+.env
+.env.*
+
+# Logs
+*.log
+
+# Large local speech recognition model
+model/
+
+# Old/unused model
+model_old_model(to be replaced)/
+
+# Training dataset
+dataset/
+
+# OS files
+.DS_Store
+Thumbs.db
